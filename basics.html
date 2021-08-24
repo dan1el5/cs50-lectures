@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title of website -->
+    <title>danny's website</title>
+    <!-- link to css file -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- headings -->
+    <h1 id="idExample">Heading</h1>
+    <h1 class="classExample">another one</h1>
+    <h1 class="classExample">another one!!!</h1>
+    <h1 style="color: aqua; font-size: small">one more</h1>
+
+    <!-- image -->
+    <a href="https://google.com">
+      <img src="pain.jpg" alt="couldnt load" width="200" length="300" />
+    </a>
+
+    <!-- list -->
+    <div>
+      <ul>
+        This is a list
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+    </div>
+
+    <!-- link -->
+    <div>
+      <a href="https://youtu.be/zFZrkCIc2Oc">click here for an HTML tutorial</a>
+    </div>
+
+    <!-- form -->
+    <form>
+      <!-- enter answer in text fields -->
+      <div>
+        <input type="text" placeholder="enter name" name="name" />
+        <input name="password" type="password" placeholder="enter password" />
+        <input type="submit" />
+      </div>
+
+      <!-- check off choice (radio) -->
+      <div>
+        favourite game?
+        <input type="radio" name="game" value="valorant" /> valorant
+        <input type="radio" name="game" value="counter strike" /> counter strike
+        <input type="radio" name="game" value="rocket league" /> rocket league
+      </div>
+
+      <!-- choose from list -->
+      <div>
+        <input list="cities" placeholder="choose city" name="city" />
+        <datalist id="cities">
+          <option value="mississauga"></option>
+          <option value="toronto"></option>
+          <option value="brampton"></option>
+          <option value="milton"></option>
+        </datalist>
+      </div>
+    </form>
+
+    <!-- button -->
+    <button>Click Me</button>
+
+    <!-- table -->
+    <table>
+      <thead>
+        <tr>
+          <th>granola bar</th>
+          <th>calories</th>
+          <th>protein</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>nature valley</td>
+          <td>170</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>quaker</td>
+          <td>200</td>
+          <td>4</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
